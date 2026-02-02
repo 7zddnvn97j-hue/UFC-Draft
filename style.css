@@ -1,1 +1,148 @@
+/* UFC-ish font + clean dark layout overrides on top of Pico */
+
+:root {
+  --brand-red: #e10600;
+  --panel: #0f0f10;
+  --panel-2: #151517;
+  --text-dim: rgba(255,255,255,0.72);
+  --border: rgba(255,255,255,0.12);
+}
+
+body {
+  background: #000;
+  color: #fff;
+  font-family: "Teko", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  letter-spacing: 0.2px;
+}
+
+/* Make Pico containers feel tighter and more “designed” */
+main.container {
+  max-width: 980px;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+/* Header banner */
+.site-hero {
+  background: linear-gradient(180deg, rgba(225,6,0,0.22), rgba(0,0,0,0)) , var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 22px 22px 14px 22px;
+}
+
+.site-title {
+  font-size: 52px;
+  line-height: 0.95;
+  margin: 0;
+}
+
+.site-subtitle {
+  margin: 6px 0 0 0;
+  color: var(--text-dim);
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 14px;
+}
+
+/* Nav under header */
+.site-nav {
+  margin-top: 14px;
+  padding-top: 12px;
+  border-top: 1px solid var(--border);
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
+.site-nav a {
+  text-decoration: none;
+  border: 1px solid var(--border);
+  background: rgba(255,255,255,0.04);
+  padding: 8px 12px;
+  border-radius: 999px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 13px;
+  color: rgba(255,255,255,0.88);
+}
+
+.site-nav a:hover {
+  border-color: rgba(225,6,0,0.65);
+}
+
+/* Section cards */
+.panel {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 18px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 16px;
+}
+
+@media (max-width: 840px) {
+  .grid-2 { grid-template-columns: 1fr; }
+}
+
+/* Leaderboard table */
+.table-wrap {
+  overflow-x: auto;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+}
+
+table.leaderboard {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+table.leaderboard thead th {
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 12px;
+  color: rgba(255,255,255,0.7);
+  background: rgba(255,255,255,0.04);
+  border-bottom: 1px solid var(--border);
+  padding: 12px;
+}
+
+table.leaderboard tbody td {
+  padding: 12px;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+table.leaderboard tbody tr:hover {
+  background: rgba(225,6,0,0.07);
+}
+
+.badge {
+  display: inline-block;
+  border: 1px solid rgba(225,6,0,0.55);
+  background: rgba(225,6,0,0.10);
+  color: rgba(255,255,255,0.95);
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+}
+
+/* Champ card */
+.champ-card {
+  display: grid;
+  grid-template-columns: 86px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+
+.champ-photo {
+  width: 86px;
+  height: 86px;
+  border-radius: 14px;
+  object-fit: cover;
+  border: 1px solid var(--border);
+}
 
