@@ -1,31 +1,107 @@
 {
   "updatedAt": "2026-02-02T12:00:00Z",
-  "players": ["Max", "Brother 1", "Brother 2", "Brother 3"],
+
+  "players": ["Max", "Theo", "Laurie", "Luke"],
+
+  "fighters": {
+    "Joshua Van": "",
+    "Alexandre Pantoja": "",
+    "Manel Kape": "",
+    "Tatsuro Taira": "",
+
+    "Petr Yan": "",
+    "Umar Nurmagomedov": "",
+    "Song Yadong": "",
+    "Merab Dvalishvili": "",
+
+    "Alexander Volkanovski": "",
+    "Diego Lopes": "",
+    "Movsar Evloev": "",
+    "Lerone Murphy": "",
+
+    "Charles Oliveira": "",
+    "Paddy Pimblett": "",
+    "Arman Tsarukyan": "",
+    "Ilia Topuria": "",
+
+    "Shavkat Rakhmonov": "",
+    "Michael Morales": "",
+    "Jack Della Maddalena": "",
+    "Islam Makhachev": "",
+
+    "Dricus Du Plessis": "",
+    "Khamzat Chimaev": "",
+    "Anthony Hernandez": "",
+    "Nassourdine Imavov": "",
+
+    "Magomed Ankalaev": "",
+    "Jiří Procházka": "",
+    "Alex Pereira": "",
+
+    "Ciryl Gane": "",
+    "Tom Aspinall": "",
+    "Sergei Pavlovich": ""
+  },
 
   "picks": {
     "Flyweight": {
-      "Max": "Fighter Name",
-      "Brother 1": "Fighter Name",
-      "Brother 2": "Fighter Name",
-      "Brother 3": "Fighter Name"
+      "Max": "Joshua Van",
+      "Theo": "Alexandre Pantoja",
+      "Laurie": "Manel Kape",
+      "Luke": "Tatsuro Taira"
+    },
+
+    "Bantamweight": {
+      "Max": "Petr Yan",
+      "Theo": "Umar Nurmagomedov",
+      "Laurie": "Song Yadong",
+      "Luke": "Merab Dvalishvili"
+    },
+
+    "Featherweight": {
+      "Max": "Alexander Volkanovski",
+      "Theo": "Diego Lopes",
+      "Laurie": "Movsar Evloev",
+      "Luke": "Lerone Murphy"
+    },
+
+    "Lightweight": {
+      "Max": "Charles Oliveira",
+      "Theo": "Paddy Pimblett",
+      "Laurie": "Arman Tsarukyan",
+      "Luke": "Ilia Topuria"
+    },
+
+    "Welterweight": {
+      "Max": "Shavkat Rakhmonov",
+      "Theo": "Michael Morales",
+      "Laurie": "Jack Della Maddalena",
+      "Luke": "Islam Makhachev"
+    },
+
+    "Middleweight": {
+      "Max": "Dricus Du Plessis",
+      "Theo": "Khamzat Chimaev",
+      "Laurie": "Anthony Hernandez",
+      "Luke": "Nassourdine Imavov"
+    },
+
+    "Light Heavyweight": {
+      "Max": "Magomed Ankalaev",
+      "Theo": "Jiří Procházka",
+      "Laurie": "Alex Pereira",
+      "Luke": "Khamzat Chimaev"
+    },
+
+    "Heavyweight": {
+      "Max": "Ciryl Gane",
+      "Theo": "Tom Aspinall",
+      "Laurie": "Sergei Pavlovich",
+      "Luke": "Alex Pereira"
     }
   },
 
   "rankingsTop5": {
-    "Flyweight": [
-      "Current Champion Name",
-      "Rank #2 Name",
-      "Rank #3 Name",
-      "Rank #4 Name",
-      "Rank #5 Name"
-    ]
-  },
-
-  "nextImportantFight": {
-    "date": "TBD",
-    "event": "TBD",
-    "fighters": ["TBD", "TBD"],
-    "notes": "Will auto-fill later"
-  }
-}
-
+    "Flyweight": [],
+    "Bantamweight": [],
+    "Feath
