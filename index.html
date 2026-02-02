@@ -1,72 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>UFC Draft Tracker</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <!-- Pico.css -->
+  <!-- Pico -->
   <link rel="stylesheet" href="pico.min.css">
 
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
+  <!-- Condensed “UFC-ish” font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&display=swap" rel="stylesheet">
 
+  <!-- Your overrides -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Home page JS -->
+  <script defer src="app.js"></script>
+</head>
+
+<body>
   <main class="container">
 
-    <header>
-      <h1>🥊 UFC Draft Tracker</h1>
-      <p>Tracking champs, picks, and the current winner</p>
-    </header>
+    <section class="site-hero">
+      <h1 class="site-title">UFC Draft Tracker</h1>
+      <p class="site-subtitle">Live scoreboard for the brothers’ draft</p>
 
-    <section>
-      <h2>🏆 Current Leader</h2>
-      <p><strong>Max</strong> is currently winning with <strong>3 champions</strong>.</p>
-    </section>
-
-    <section>
-      <h2>📊 Leaderboard</h2>
-
-      <table>
-        <thead>
-          <tr>
-            <th>Player</th>
-            <th>Champions</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td>Max</td>
-            <td>3</td>
-          </tr>
-          <tr>
-            <td>Theo</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td>Laurie</td>
-            <td>1</td>
-          </tr>
-          <tr>
-            <td>Luke</td>
-            <td>0</td>
-          </tr>
-        </tbody>
-      </table>
-    </section>
-
-    <footer>
-      <hr>
-      <nav>
-        <a href="index.html">Home</a> |
-        <a href="picks.html">Draft Picks</a> |
+      <nav class="site-nav" aria-label="Site navigation">
+        <a href="index.html">Home</a>
+        <a href="picks.html">Picks</a>
         <a href="calendar.html">Calendar</a>
       </nav>
-      <small>Last updated manually</small>
-    </footer>
+    </section>
+
+    <div style="height:16px"></div>
+
+    <section class="grid-2">
+      <section class="panel">
+        <h2 style="margin-top:0">Current Leader</h2>
+        <p id="currentLeaderText" style="margin-bottom:0; color: rgba(255,255,255,0.86); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+          Loading…
+        </p>
+        <div style="height:14px"></div>
+
+        <div class="table-wrap">
+          <table class="leaderboard" aria-label="Leaderboard">
+            <thead>
+              <tr>
+                <th>Player</th>
+                <th>Champs</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody id="leaderboardBody">
+              <!-- JS will fill -->
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <aside class="panel">
+        <h2 style="margin-top:0">2025 Draft Champ</h2>
+
+        <div class="champ-card">
+          <!-- Put your photo in /img/max-champ.jpg and it will show -->
+          <img class="champ-photo" src="img/max-champ.jpg" alt="Max holding the draft trophy">
+
+          <div>
+            <div class="badge">Max</div>
+            <p style="margin:8px 0 0 0; color: rgba(255,255,255,0.86); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+              Reigning champ. Bow down.
+            </p>
+            <small style="color: rgba(255,255,255,0.6); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+              (Yes, this section is permanent.)
+            </small>
+          </div>
+        </div>
+      </aside>
+    </section>
+
+    <div style="height:16px"></div>
+
+    <section class="panel">
+      <h2 style="margin-top:0">Next Important Fight</h2>
+      <p id="nextFightText" style="margin:0; color: rgba(255,255,255,0.86); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+        Coming next…
+      </p>
+      <small id="updatedAtText" style="display:block; margin-top:10px; color: rgba(255,255,255,0.6); font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;">
+      </small>
+    </section>
 
   </main>
-
 </body>
 </html>
-
-
