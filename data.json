@@ -1,1 +1,31 @@
+{
+  "updatedAt": "2026-02-02T12:00:00Z",
+  "players": ["Max", "Brother 1", "Brother 2", "Brother 3"],
+
+  "picks": {
+    "Flyweight": {
+      "Max": "Fighter Name",
+      "Brother 1": "Fighter Name",
+      "Brother 2": "Fighter Name",
+      "Brother 3": "Fighter Name"
+    }
+  },
+
+  "rankingsTop5": {
+    "Flyweight": [
+      "Current Champion Name",
+      "Rank #2 Name",
+      "Rank #3 Name",
+      "Rank #4 Name",
+      "Rank #5 Name"
+    ]
+  },
+
+  "nextImportantFight": {
+    "date": "TBD",
+    "event": "TBD",
+    "fighters": ["TBD", "TBD"],
+    "notes": "Will auto-fill later"
+  }
+}
 
