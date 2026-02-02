@@ -104,4 +104,19 @@
   "rankingsTop5": {
     "Flyweight": [],
     "Bantamweight": [],
-    "Feath
+    "Featherweight": [],
+    "Lightweight": [],
+    "Welterweight": [],
+    "Middleweight": [],
+    "Light Heavyweight": [],
+    "Heavyweight": []
+  },
+
+  "nextImportantFight": {
+    "event": "",
+    "date": "",
+    "fighters": [],
+    "notes": ""
+  }
+}
+
