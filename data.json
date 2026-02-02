@@ -3,45 +3,46 @@
 
   "players": ["Max", "Theo", "Laurie", "Luke"],
 
-  "fighters": {
-    "Joshua Van": "",
-    "Alexandre Pantoja": "",
-    "Manel Kape": "",
-    "Tatsuro Taira": "",
+ "fighters": {
+  "Joshua Van": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Joshua_Van_UFC.jpg",
+  "Alexandre Pantoja": "https://upload.wikimedia.org/wikipedia/commons/3/36/Alexandre_Pantoja_2023.jpg",
+  "Manel Kape": "https://upload.wikimedia.org/wikipedia/commons/0/05/Manel_Kape_2022.jpg",
+  "Tatsuro Taira": "https://upload.wikimedia.org/wikipedia/commons/1/19/Tatsuro_Taira_2023.jpg",
 
-    "Petr Yan": "",
-    "Umar Nurmagomedov": "",
-    "Song Yadong": "",
-    "Merab Dvalishvili": "",
+  "Petr Yan": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Petr_Yan_2022.jpg",
+  "Umar Nurmagomedov": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Umar_Nurmagomedov_2023.jpg",
+  "Song Yadong": "https://upload.wikimedia.org/wikipedia/commons/5/55/Song_Yadong_2022.jpg",
+  "Merab Dvalishvili": "https://upload.wikimedia.org/wikipedia/commons/3/32/Merab_Dvalishvili_2023.jpg",
 
-    "Alexander Volkanovski": "",
-    "Diego Lopes": "",
-    "Movsar Evloev": "",
-    "Lerone Murphy": "",
+  "Alexander Volkanovski": "https://upload.wikimedia.org/wikipedia/commons/6/66/Alexander_Volkanovski_2023.jpg",
+  "Diego Lopes": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Diego_Lopes_UFC.jpg",
+  "Movsar Evloev": "https://upload.wikimedia.org/wikipedia/commons/9/93/Movsar_Evloev_2022.jpg",
+  "Lerone Murphy": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Lerone_Murphy_2023.jpg",
 
-    "Charles Oliveira": "",
-    "Paddy Pimblett": "",
-    "Arman Tsarukyan": "",
-    "Ilia Topuria": "",
+  "Charles Oliveira": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Charles_Oliveira_2022.jpg",
+  "Paddy Pimblett": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Paddy_Pimblett_2023.jpg",
+  "Arman Tsarukyan": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Arman_Tsarukyan_2023.jpg",
+  "Ilia Topuria": "https://upload.wikimedia.org/wikipedia/commons/2/23/Ilia_Topuria_2023.jpg",
 
-    "Shavkat Rakhmonov": "",
-    "Michael Morales": "",
-    "Jack Della Maddalena": "",
-    "Islam Makhachev": "",
+  "Shavkat Rakhmonov": "https://upload.wikimedia.org/wikipedia/commons/3/3b/Shavkat_Rakhmonov_2023.jpg",
+  "Michael Morales": "https://upload.wikimedia.org/wikipedia/commons/4/41/Michael_Morales_UFC.jpg",
+  "Jack Della Maddalena": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Jack_Della_Maddalena_2023.jpg",
+  "Islam Makhachev": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Islam_Makhachev_2023.jpg",
 
-    "Dricus Du Plessis": "",
-    "Khamzat Chimaev": "",
-    "Anthony Hernandez": "",
-    "Nassourdine Imavov": "",
+  "Dricus Du Plessis": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Dricus_du_Plessis_2023.jpg",
+  "Khamzat Chimaev": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Khamzat_Chimaev_2023.jpg",
+  "Anthony Hernandez": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Anthony_Hernandez_UFC.jpg",
+  "Nassourdine Imavov": "https://upload.wikimedia.org/wikipedia/commons/3/36/Nassourdine_Imavov_2022.jpg",
 
-    "Magomed Ankalaev": "",
-    "Jiří Procházka": "",
-    "Alex Pereira": "",
+  "Magomed Ankalaev": "https://upload.wikimedia.org/wikipedia/commons/4/47/Magomed_Ankalaev_2023.jpg",
+  "Jiří Procházka": "https://upload.wikimedia.org/wikipedia/commons/5/53/Jiri_Prochazka_2023.jpg",
+  "Alex Pereira": "https://upload.wikimedia.org/wikipedia/commons/7/77/Alex_Pereira_2023.jpg",
 
-    "Ciryl Gane": "",
-    "Tom Aspinall": "",
-    "Sergei Pavlovich": ""
-  },
+  "Ciryl Gane": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Ciryl_Gane_2023.jpg",
+  "Tom Aspinall": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Tom_Aspinall_2023.jpg",
+  "Sergei Pavlovich": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sergei_Pavlovich_2023.jpg"
+}
+
 
   "picks": {
     "Flyweight": {
