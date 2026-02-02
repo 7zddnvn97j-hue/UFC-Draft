@@ -22,9 +22,12 @@ main.container {
   padding-bottom: 3rem;
 }
 
-/* Header banner */
+/* ---------------- Header / Hero ---------------- */
+
 .site-hero {
-  background: linear-gradient(180deg, rgba(225,6,0,0.22), rgba(0,0,0,0)) , var(--panel);
+  background:
+    linear-gradient(180deg, rgba(225,6,0,0.22), rgba(0,0,0,0)),
+    var(--panel);
   border: 1px solid var(--border);
   border-radius: 16px;
   padding: 22px 22px 14px 22px;
@@ -57,18 +60,21 @@ main.container {
   text-decoration: none;
   border: 1px solid var(--border);
   background: rgba(255,255,255,0.04);
-  padding: 8px 12px;
+  padding: 8px 14px;
   border-radius: 999px;
   font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
   font-size: 13px;
   color: rgba(255,255,255,0.88);
+  transition: border-color 0.2s ease, background 0.2s ease;
 }
 
 .site-nav a:hover {
   border-color: rgba(225,6,0,0.65);
+  background: rgba(225,6,0,0.08);
 }
 
-/* Section cards */
+/* ---------------- Panels / Layout ---------------- */
+
 .panel {
   background: var(--panel-2);
   border: 1px solid var(--border);
@@ -83,10 +89,13 @@ main.container {
 }
 
 @media (max-width: 840px) {
-  .grid-2 { grid-template-columns: 1fr; }
+  .grid-2 {
+    grid-template-columns: 1fr;
+  }
 }
 
-/* Leaderboard table */
+/* ---------------- Leaderboard ---------------- */
+
 .table-wrap {
   overflow-x: auto;
   border-radius: 14px;
@@ -119,6 +128,8 @@ table.leaderboard tbody tr:hover {
   background: rgba(225,6,0,0.07);
 }
 
+/* Champion / badge */
+
 .badge {
   display: inline-block;
   border: 1px solid rgba(225,6,0,0.55);
@@ -131,6 +142,7 @@ table.leaderboard tbody tr:hover {
 }
 
 /* Champ card */
+
 .champ-card {
   display: grid;
   grid-template-columns: 86px 1fr;
@@ -146,3 +158,70 @@ table.leaderboard tbody tr:hover {
   border: 1px solid var(--border);
 }
 
+/* ---------------- Picks Page ---------------- */
+
+.pick-card {
+  background: var(--panel-2);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px;
+  margin-bottom: 14px;
+}
+
+.pick-division {
+  margin: 0 0 12px 0;
+  font-size: 30px;
+  line-height: 1;
+}
+
+.pick-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+@media (max-width: 840px) {
+  .pick-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+.pick-row {
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  gap: 10px;
+  align-items: center;
+  border: 1px solid rgba(255,255,255,0.10);
+  background: rgba(255,255,255,0.03);
+  padding: 10px;
+  border-radius: 14px;
+  transition: background 0.2s ease, border-color 0.2s ease;
+}
+
+.pick-row:hover {
+  background: rgba(225,6,0,0.06);
+  border-color: rgba(225,6,0,0.4);
+}
+
+.pick-img {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  object-fit: cover;
+  border: 1px solid rgba(255,255,255,0.12);
+}
+
+.pick-player {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: rgba(255,255,255,0.65);
+}
+
+.pick-fighter {
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  font-size: 15px;
+  color: rgba(255,255,255,0.95);
+  margin-top: 2px;
+}
